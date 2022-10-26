@@ -1,0 +1,30 @@
+{
+    "bookstore":{
+        "book":[
+            {
+                "title":"Mates",
+                "publisher":"Barcanova",
+                "cover":"Mates1",
+                "price":"20"
+            },
+            {
+                "title":"Castellano",
+                "publisher":"Barcanova",
+                "cover":"Castellano1",
+                "price":"25"
+            },
+            {
+                "title":"Catalan",
+                "publisher":"Barcanova",
+                "cover":"Catalan1",
+                "price":"30"
+            },
+            {
+                "title":"English",
+                "publisher":"Barcanova",
+                "cover":"English1",
+                "price":"35"
+            }
+        ]
+    }
+}
