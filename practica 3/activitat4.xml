@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Aquest codi recopil·la informació de diferents llibres d'una llibreria -->
+<!-- Creem un root (bookstore) i li afegim 4 childs (book) -->
+<bookstore>
+    <book>
+        <title>Mates</title>
+        <publisher>Barcanova</publisher>
+        <cover>Mates1</cover>
+        <price>20</price>
+    </book>
+    <book>
+        <title>Castellano</title>
+        <publisher>Barcanova</publisher>
+        <cover>Castellano1</cover>
+        <price>25</price>
+    </book>
+    <book>
+        <title>Catalan</title>
+        <publisher>Barcanova</publisher>
+        <cover>Catalan1</cover>
+        <price>30</price>
+    </book>
+    <book>
+        <title>English</title>
+        <publisher>Barcanova</publisher>
+        <cover>English1</cover>
+        <price>35</price>
+    </book>
+</bookstore>
