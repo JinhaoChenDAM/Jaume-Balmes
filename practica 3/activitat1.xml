@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--this is an xml for students info-->
+<students>
+    <!--every student tag has 4 subchild tags-->
+    <student gender="male">
+        <name>Jinhao</name>
+        <surname>Chen</surname>
+        <email>jaumebalmesjinhao@gmail.com</email>
+        <dni>1234567890</dni>
+    </student>
+    <student gender="male">
+        <name>Guillermo</name>
+        <surname>Jaume</surname>
+        <email>jaumebalmesguillermo@gmail.com</email>
+        <dni>1234567891</dni>
+    </student>
+    <student gender="male">
+        <name>David</name>
+        <surname>Perez</surname>
+        <email>jaumebalmesdavid@gmail.com</email>
+        <dni>1234567892</dni>
+    </student>
+    <student gender="male">
+        <name>Alex</name>
+        <surname>Garcia</surname>
+        <email>jaumebalmesalex@gmail.com</email>
+        <dni>1234567893</dni>
+    </student>
+    <student gender="female">
+        <name>Joana</name>
+        <surname>Cuello</surname>
+        <email>jaumebalmesjoana@gmail.com</email>
+        <dni>1234567894</dni>
+    </student>
+</students>
