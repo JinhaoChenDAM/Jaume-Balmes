@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--this is an xml for students info-->
+<!--this is a xml for students info-->
 <students>
     <!--every student tag has 4 subchild tags-->
     <student gender="male">
