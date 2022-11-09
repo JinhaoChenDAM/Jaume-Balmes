@@ -1,7 +1,14 @@
+/* estilo para Activitat1.html*/
+/* tipo y tamaño de las letras */
+body{
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* alineación de los textos de la tabla*/
 table{
     text-align:left;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+/* alineación de los textos y negrita para cabezados de la tabla*/
 th{
     text-align:center;
     font-weight: bold;
