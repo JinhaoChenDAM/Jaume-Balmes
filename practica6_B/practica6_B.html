@@ -1,0 +1,64 @@
+<!DOCTYPE html> <!-- Indiquem el tipus de document(html)-->
+<html lang="es"> <!-- En aquesta línia escribim el començament de l'html i indiquem l'idioma-->
+    <head>
+        <meta charset="utf-8"/> <!-- Igual que en xml indiquem les lletres que volem tenir-->
+        <title>Pràctica6_B</title> <!-- Títol de la pàgina-->
+    </head>
+    <!-- Aquí comença la nostra etiqueta body, on està tot el contingut de la pàgina-->
+    <body>
+            <form> <!--Aqui afegim un formolari per possar el nom, cognom i edad-->
+                <label>Nom:<br></label>
+                <input type="text" id="nom" value="el teu nom"><br><br>
+
+                <label>Cognom:<br></label>
+                <input type="text" id="cognom" value="el teu cognom"><br><br>
+
+                <label>Edad:<br></label>
+                <input type="text" id="edad" value="20"><br><br>
+            </form>
+
+            <!--Aqui hem creat una casella rodona per només poder seleccionar una opció-->
+            <p>Cicles formatiu que es vol cursar l'any vinent:</p>
+            <form>
+                <label>DAM</label>
+                <input type="radio" id="dam" value="DAM" checked><br>
+
+                <label>ASIX</label>
+                <input type="radio" id="asix" value="ASIX"><br>
+
+                <label>Altre...</label>
+                <input type="radio" id="altre" value="ALTRE"><br>
+            </form>
+
+            <!--En aquest cas hem fet una checkbox per poder escollir varies opcions-->
+            <p>Marca les teves aficions:</p>
+            <form>
+                <label>Estudiar</label>
+                <input type="checkbox" id="estudiar" value="ESTUDIAR" checked><br>
+
+                <label>ASIX</label>
+                <input type="checkbox" id="asix" value="ASIX"><br>
+
+                <label>Llibres</label>
+                <input type="checkbox" id="llibres" value="LLIBRES"><br>
+
+                <label>Jugar al Magic</label>
+                <input type="checkbox" id="magic" value="MAGIC"><br>
+
+                <label>Fer burilles</label>
+                <input type="checkbox" id="burilles" value="BURILLES"><br>
+            </form>
+
+            <!--Aqui hem creat un camp per poder escriure més opcions-->
+            <label>Altres</label><br>
+            <textarea rows="10" cols="50">Especifica quines</textarea><br><br>
+
+            <!--Per acabar hem fet una llista desplegable-->
+            <label>L'estàndar d'HTML que més m'agrada</label><br>
+            <select>
+                <option  selected="selected">HTML5</option>
+                <option>HTML 4.01</option>
+                <option>XHTML 1.0</option>
+            </select>
+    </body>
+</html>
