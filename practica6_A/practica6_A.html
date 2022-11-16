@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--Un html de formulario sobre datos de un alumno-->
+<html lang="es">
+    <!--Declarar tipo de codificador utf-8-->
+    <head>
+        <title>Practica6 A</title>
+        <meta charset="utf-8">
+    </head>
+    <!--El cuerpo-->
+    <body>
+        <!--Informaciónes básicas-->
+        <form>
+            <label>Nom</label>
+            <input type="text" id= "nom" value="el teu nom"><br><br>
+            <label>Cognom</label>
+            <input type="text" id= "cognom" value="el teu cognom"><br><br>
+            <label>Edat</label>
+            <input type="text" id= "edat" value="20"><br><br>
+        </form>
+        <!--El ciclo formativo-->
+        <form>
+            <p>Cicle formatiu que es vol cursar l'any vinent:</p><br>
+            <label>DAM</label>
+            <input type="radio" id="dam" value="DAM" checked><br>
+            <label>ASIX</label>
+            <input type="radio" id="asix" value="ASIX"><br>
+            <label>Altre...</label>
+            <input type="radio" id="altre" value="Altre"><br><br>
+        </form>
+        <!--Las aficiones-->
+        <form>
+            <p>Marca les teves aficions:</p>
+            <label>Estudiar</label>
+            <input type="checkbox" checked><br>
+            <label>ASIX</label>
+            <input type="checkbox"><br>
+            <label>Libres</label>
+            <input type="checkbox"><br>
+            <label>Jugar a Magic</label>
+            <input type="checkbox"><br>
+            <label>Fer burilles</label>
+            <input type="checkbox"><br>
+            <label>Altres</label>
+            <textarea name="message" rows="10" cols="50">Especifica quines</textarea><br><br>
+            <label>L'estàndard d'HTML que més m'agrada:</label>
+            <select name="favourite">
+                <option value="html 4.01">HTML 4.01</option>
+                <option value="xhtml 1.0">XHTML 1.0</option>
+                <option selected="selected" value="html5">HTML5</option>
+            </select>
+        </form>
+    </body>
+</html>
