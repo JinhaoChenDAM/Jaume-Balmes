@@ -1,0 +1,64 @@
+.container{
+    top:18px;
+    text-decoration: underline;
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer{
+    bottom: 18px;
+}
+
+/*HEADER*/
+.item1{ /*Izquierda*/
+    justify-content: space-between;
+}
+
+
+.item2{ /*Derecha*/
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+#boton{
+    background-color: rgb(138, 180, 248);
+    height: 35px;
+    width: 130px;
+    border: 0px;
+    border-radius: 5px;
+
+}
+#puntitos{
+    width: 15px;
+    height: 15px;
+}
+
+/*FOOTER*/
+#rightfooter{
+    position: absolute;
+    bottom: 16px;
+    right: 20px;
+}
+#midfooter{
+    position: absolute;
+    right: 500px;
+}
+#leftfooter{
+    position: absolute;
+    bottom: 16px;
+    left: 20px;
+}
+
+#publicidad{
+    margin: 20px; 
+}
+#empresa{
+    margin: 20px;
+}
+#privacidad{
+    margin: 20px;
+}
+#terminos{
+    margin: 20px;
+}
