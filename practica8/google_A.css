@@ -1,14 +1,16 @@
 body{
-    display:flex;
-    flex-direction:column;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
 }
+
 header{
     display: flex;
     flex-direction:row;
     align-items:center;
     justify-content: space-between;
-    margin-left:12px;
+    margin: 12px;
 
 }
 .top-left{
@@ -28,6 +30,7 @@ header{
 }
 .text:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 .sobre{
     padding-right: 5px;
@@ -50,41 +53,115 @@ header{
     height: 35px;
     background-color: rgb(66 133 244);
     font-family: sans-serif;
-    border-radius:5px;
+    border-radius:7px;
     color:white;
 }
 .sobregoogle{
-    display:flex;
+    display:inline-flex;
     flex-wrap: wrap;
 }
+.content{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+.googleimg{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.searchbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.searchbotton{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.languages{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ofrecido{
+    font-family:sans-serif;
+    font-size: 14px;
+}
+
 footer{
     display: flex;
-    flex-direction:row;
-    justify-content: flex-end;
-
+    flex-direction:column;
 }
 .secondLast{
-    order:1
+    background-color: rgb(242, 242, 242);
+    width: 100%;
+    padding: 10px;
 }
 .last{
-    order:2
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(242, 242, 242);
+    flex-wrap: wrap;
+    padding:10px;
+    justify-content: space-between;
 }
 .bottom-left{
     display:flex;
+    flex-grow: 1;
+    order: 1;
     flex-direction: row;
-    align-items:center;
+    align-self: flex-end;
+    justify-content: center;
 }
 .bottom-center{
     display:flex;
+    flex-grow: 1;
+    order: 2;
     flex-direction: row;
-    align-items:center;
+    align-self: flex-start;
+    justify-content: center;
+
 }
 .bottom-right{
     display:flex;
+    flex-grow: 1;
+    order: 3;
+    align-self: flex-end;
     flex-direction: row;
-    align-items:center;
+    justify-content: center;
 }
 .españa{
     font-family:sans-serif;
     font-size: 14px;
+    margin-left: 20px;
+}
+.publicidad{
+    padding-right: 20px;
+}
+.empresa{
+    padding-right: 20px;
+}
+.comoFunciona{
+    padding-right: 20px;
+}
+.privacidad{
+    padding-left: 20px;
+}
+.terminos{
+    padding-left: 20px;
+}
+.configuracion{
+    padding-left: 20px;
+}
+.bottext{
+    font-family:sans-serif;
+    font-size: 14px;
+}
+.bottext:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
