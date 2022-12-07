@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
+
+header{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-between;
+    margin-left:12px;
+
+}
+.top-left{
+    display:inline-flex;
+    flex-direction: row;
+    align-items:center;
+}
+.top-right{
+    display:inline-flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+.text{
+    font-family:sans-serif;
+    font-size: 14px;
+}
+.text:hover{
+    text-decoration: underline;
+}
+.sobre{
+    padding-right: 5px;
+}
+.google{
+    padding-right: 20px;
+}
+.tienda{
+    padding-right:50px;
+}
+.gmail{
+    padding-right: 20px;
+}
+.imagenes{
+    padding-right: 20px;
+}
+.sesion{
+    margin-left:20px;
+    width: 115px;
+    height: 35px;
+    background-color: rgb(66 133 244);
+    font-family: sans-serif;
+    border-radius:7px;
+    color:white;
+}
+.sobregoogle{
+    display:inline-flex;
+    flex-wrap: wrap;
+}
