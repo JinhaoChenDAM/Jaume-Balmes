@@ -13,6 +13,12 @@ header{
     margin: 12px;
 
 }
+hr{
+    height:1px;
+    border-width: 0;
+    background-color: grey;
+    margin:0;
+}
 .top-left{
     display:flex;
     flex-direction: row;
@@ -65,33 +71,69 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0;
 }
 .googleimg{
     display:flex;
     flex-direction: row;
     justify-content: center;
 }
+.outerbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.left{
+    order:1;
+}
 .searchbar{
     display:flex;
+    order:2;
     flex-direction: row;
     justify-content: center;
+    margin:20px;
+    border:1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    align-items: center;
+}
+.right{
+    order:3;
+}
+#textbox{
+    width:500px;
+    border:none;
+    border-color:transparent;
 }
 .searchbotton{
     display:flex;
     flex-direction: row;
     justify-content: center;
 }
+.botton{
+    width: 150px;
+    height: 35px;
+    margin:5px;
+    font-family: sans-serif;
+    background-color: rgb(242, 242, 242);
+    border-radius: 7px;
+}
 .languages{
     display:flex;
     flex-direction: row;
     justify-content: center;
+    margin: 20px;
+    align-items: center;
 }
 .ofrecido{
     font-family:sans-serif;
     font-size: 14px;
 }
-
+.language1{
+    margin-left: 5px;
+    margin-right: 5px;
+}
 footer{
     display: flex;
     flex-direction:column;
@@ -112,7 +154,6 @@ footer{
 .bottom-left{
     display:flex;
     flex-grow: 1;
-    order: 1;
     flex-direction: row;
     align-self: flex-end;
     justify-content: center;
@@ -120,7 +161,6 @@ footer{
 .bottom-center{
     display:flex;
     flex-grow: 1;
-    order: 2;
     flex-direction: row;
     align-self: flex-start;
     justify-content: center;
