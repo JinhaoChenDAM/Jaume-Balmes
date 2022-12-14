@@ -1,0 +1,115 @@
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items:baseline;
+}
+
+/*HEADER*/
+.headerContainerLeft{ /*Izquierda*/
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 150px;
+}
+
+.headerContainerRight{ /*Derecha*/
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    flex-basis:300px;
+    align-items:center;
+}
+
+/*MAIN*/
+#googleImg{
+    width: 200px;
+    height: 75px;
+}
+.idiomes{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.idiomesLink{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 15px;
+}
+
+#dniImg{
+    width: 170px;
+    height: 205px;
+}
+#dniImg2{
+    width: 200px;
+    height: 215px;
+}
+
+.containerMain{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerText{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow:row wrap;
+}
+
+/*FOOTER*/
+.ubi{
+    display: flex;
+    background-color: rgb(242, 242, 242);
+}
+#line{
+    height: 1px;
+    background-color: black;
+    margin: 0px;
+    border-width: 0px;
+}
+.footerContainerBottom{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    align-items:flex-end;
+    background-color: rgb(242, 242, 242);
+}
+.footerContainerLeft{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items:flex-end;
+    gap: 10px;
+}
+
+.footerContainerRight{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/*HOVERS UNDERLINES*/
+/*hover boton*/
+#boton{
+    background-color: rgb(138, 180, 248);
+    height: 35px;
+    width: 130px;
+    border: 0px;
+    border-radius: 5px;
+}
+/*HOVERS*/
+.hover:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#puntitos{
+    width: 18px;
+    height: 18px;
+}
